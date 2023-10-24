@@ -1,0 +1,26 @@
+.mainparent{
+height:600px;
+width:1200px ;
+background-color: brown;
+position: relative;
+flex-wrap: wrap;
+}
+.parent{
+ height: 180px;
+ width: 280px;
+ background-color: blue;
+ position: absolute;
+ bottom: 120px;
+ left: 400px;
+ flex-wrap: wrap;
+}
+.child{
+    height: 70px;
+    width: 130px;
+    background-color: yellow;
+    position: absolute;
+    bottom: 55px;
+    left:80px;
+    flex-wrap: wrap;
+
+}
